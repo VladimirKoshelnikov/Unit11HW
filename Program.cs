@@ -36,6 +36,8 @@ namespace Unit11HW{
                 .Build(); // Собираем
 
                 // Запускаем сервис
+                // Для подключения к боту используйте ссылку 
+                // t.me/Unit11KVSHomeWorkBot
 
             Console.WriteLine("Сервис запущен");
             await host.RunAsync();
